@@ -1,0 +1,17 @@
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\AlgoNETTests.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\AlgoNETTests.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\AlgoNET.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\AlgoNET.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\obj\Debug\AlgoNETTests.csprojResolveAssemblyReference.cache
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\obj\Debug\AlgoNETTests.csproj.CoreCompileInputs.cache
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\obj\Debug\AlgoNETTests.csproj.CopyComplete
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\obj\Debug\AlgoNETTests.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\obj\Debug\AlgoNETTests.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\bin\Debug\Data\nth_term.csv

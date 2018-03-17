@@ -1,0 +1,7 @@
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\bin\Debug\AlgoNET.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\bin\Debug\AlgoNET.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\obj\Debug\AlgoNET.csproj.CoreCompileInputs.cache
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\obj\Debug\AlgoNET.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\obj\Debug\AlgoNET.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\bin\Debug\Data\nth_term.csv
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNET\obj\Debug\AlgoNET.csprojResolveAssemblyReference.cache
