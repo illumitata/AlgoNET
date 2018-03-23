@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlgoNET.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AlgoNET.Fakes.ShimFibModule">
+            <summary>Typ podkładki dla AlgoNET.FibModule</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.ShimFibModule.#ctor">
+            <summary>Inicjuje nowe wystąpienie podkładki</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.ShimFibModule.#ctor(AlgoNET.FibModule)">
+            <summary>Inicjuje nową podkładkę dla danego wystąpienia</summary>
+        </member>
+        <member name="T:AlgoNET.Fakes.ShimFibModule.AllInstances">
+            <summary>Definiowanie podkładek dla wszystkich składowych wystąpień</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.AllInstances.fast_doublingUInt64">
+            <summary>Ustawia element podkładka dla: FibModule.fast_doubling(UInt64 n)</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.AllInstances.get_values_from_rangeUInt64UInt64">
+            <summary>Ustawia element podkładka dla: FibModule.get_values_from_range(UInt64 a, UInt64 b)</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.AllInstances.textbookUInt64">
+            <summary>Ustawia element podkładka dla: FibModule.textbook(UInt64 n)</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.ShimFibModule.BehaveAsCurrent">
+            <summary>Przypisuje zachowanie „Current” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.ShimFibModule.BehaveAsNotImplemented">
+            <summary>Przypisuje zachowanie „NotImplemented” dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.Behavior">
+            <summary>Przypisuje zachowanie dla wszystkich metod z typem zastąpionym podkładką</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.ShimFibModule.Bind(AlgoNET.IFibModule)">
+            <summary>Powiązuje składowe interfejsu z podkładką.</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.Constructor">
+            <summary>Ustawia element podkładka dla: FibModule.FibModule()</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.fast_doublingUInt64">
+            <summary>Ustawia element podkładka dla: FibModule.fast_doubling(UInt64 n)</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.get_values_from_rangeUInt64UInt64">
+            <summary>Ustawia element podkładka dla: FibModule.get_values_from_range(UInt64 a, UInt64 b)</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.ShimFibModule.textbookUInt64">
+            <summary>Ustawia element podkładka dla: FibModule.textbook(UInt64 n)</summary>
+        </member>
+        <member name="T:AlgoNET.Fakes.StubFibModule">
+            <summary>Typ klasy zastępczej dla AlgoNET.FibModule</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubFibModule.#ctor">
+            <summary>Inicjuje nowe wystąpienie</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.StubFibModule.CallBase">
+            <summary>Pobiera lub ustawia wartość określającą, czy zamiast zachowania alternatywnego należy wywołać metodę bazową</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubFibModule.InitializeStub">
+            <summary>Inicjuje nowe wystąpienie elementu type StubFibModule</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.StubFibModule.InstanceBehavior">
+            <summary>Pobiera lub ustawia zachowanie wystąpienia.</summary>
+        </member>
+        <member name="P:AlgoNET.Fakes.StubFibModule.InstanceObserver">
+            <summary>Pobiera lub ustawia obserwatora wystąpienia.</summary>
+        </member>
+        <member name="T:AlgoNET.Fakes.StubIFibModule">
+            <summary>Typ klasy zastępczej dla AlgoNET.IFibModule</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubIFibModule.#ctor">
+            <summary>Inicjuje nowe wystąpienie elementu type StubIFibModule</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubIFibModule.AlgoNET#IFibModule#fast_doubling(System.UInt64)">
+            <summary>Ustawia element klasa zastępcza dla: IFibModule.fast_doubling(UInt64 n)</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubIFibModule.AlgoNET#IFibModule#get_values_from_range(System.UInt64,System.UInt64)">
+            <summary>Ustawia element klasa zastępcza dla: IFibModule.get_values_from_range(UInt64 a, UInt64 b)</summary>
+        </member>
+        <member name="M:AlgoNET.Fakes.StubIFibModule.AlgoNET#IFibModule#textbook(System.UInt64)">
+            <summary>Ustawia element klasa zastępcza dla: IFibModule.textbook(UInt64 n)</summary>
+        </member>
+        <member name="F:AlgoNET.Fakes.StubIFibModule.Fast_doublingUInt64">
+            <summary>Ustawia element stub dla: IFibModule.fast_doubling(UInt64 n)</summary>
+        </member>
+        <member name="F:AlgoNET.Fakes.StubIFibModule.TextbookUInt64">
+            <summary>Ustawia element stub dla: IFibModule.textbook(UInt64 n)</summary>
+        </member>
+        <member name="F:AlgoNET.Fakes.StubIFibModule.Values_from_rangeGetUInt64UInt64">
+            <summary>Ustawia element stub dla: IFibModule.get_values_from_range(UInt64 a, UInt64 b)</summary>
+        </member>
+    </members>
+</doc>

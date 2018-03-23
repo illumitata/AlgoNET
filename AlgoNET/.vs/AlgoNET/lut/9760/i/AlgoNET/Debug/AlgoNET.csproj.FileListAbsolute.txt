@@ -1,0 +1,8 @@
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\b\AlgoNET\bin\Debug\Data\nth_term_slow.csv
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\b\AlgoNET\bin\Debug\Data\nth_term_fast.csv
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\b\AlgoNET\bin\Debug\AlgoNET.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\b\AlgoNET\bin\Debug\AlgoNET.pdb
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\i\AlgoNET\Debug\AlgoNET.csproj.CoreCompileInputs.cache
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\i\AlgoNET\Debug\AlgoNET.csproj.CopyComplete
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\i\AlgoNET\Debug\AlgoNET.dll
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\.vs\AlgoNET\lut\0\i\AlgoNET\Debug\AlgoNET.pdb

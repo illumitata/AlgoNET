@@ -1,35 +1,64 @@
 ﻿using System;
+using System.Numerics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace AlgoNET {
-    public class FibModule {
+
+    public interface IFibModule
+    {
+        ulong textbook(ulong n);
+        BigInteger fast_doubling(ulong n);
+        List<String> get_values_from_range(ulong a, ulong b);
+    }
+    public class FibModule : IFibModule {
         // calculate n-th term of fibbonaci sequence
-        public ulong calc_nth_term_textbook(ulong n) {
+        public ulong textbook(ulong n) {
+            if (n > 40)
+                throw new System.ArgumentException("Parameter cannot be more than 40 due to long time of execution.", "n param too big");
+
             if (n == 0 || n == 1)
                 return n;
             else
-                return calc_nth_term_textbook(n - 1) + calc_nth_term_textbook(n - 2);
+                return textbook(n - 1) + textbook(n - 2);
         }
-        // classic calculation method for fibbonaci numbers
-        // return the last term of calculations
-        // for example if term is 0 and start_first is 0 and start_second is 1
-        // it returns 1
-        // if term is 1 returns also 1
-        // if term is 4 returns 5
-        /*
-        public ulong calc_textbook_method_from(ulong start_first, ulong start_second, int term) {
-            ulong result;
 
-            if (start_first == null || start_second == null || term == null) {
-                throw new ArgumentException("Arguments can't be null!");
+        // calculate n-th term of fibbonaci sequence using fast doubling method
+        public BigInteger fast_doubling(ulong n) {
+            BigInteger a = BigInteger.Zero;
+            BigInteger b = BigInteger.One;
+ 
+            for (int i = 63; i >= 0; i--) {
+                BigInteger d = a * (b * 2 - a);
+                BigInteger e = a * a + b * b;
+                a = d;
+                b = e;
+                if (((n >> i) & 1) != 0) {
+                    BigInteger c = a + b;
+                    a = b;
+                    b = c;
+                }
             }
 
-            if(term == 0)
-
+            return a;
         }
-        */
+
+        // return the list of string with values from a to b fibbonaci numbers
+        public List<String> get_values_from_range(ulong a, ulong b) {
+
+            if (a > b)
+                throw new System.ArgumentException("b cannot be more than a", "b param too small");
+
+            List<String> list = new List<String>();
+
+            for (ulong i = a; i <= b; i++) {
+                list.Add(fast_doubling(i).ToString("D"));
+            }
+
+            return list;
+        }
     }
 }

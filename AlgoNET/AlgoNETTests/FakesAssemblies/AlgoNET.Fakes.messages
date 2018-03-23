@@ -1,0 +1,3 @@
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\Fakes\AlgoNET.fakes : warning : Nie można wygenerować klasy zastępczej dla <PrivateImplementationDetails>: typ jest zapieczętowany.
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\Fakes\AlgoNET.fakes : warning : Nie można wygenerować podkładki dla AlgoNET.IFibModule: typ jest interfejsem.
+C:\Users\Dżony\Documents\AlgoNET\AlgoNET\AlgoNETTests\Fakes\AlgoNET.fakes : warning : Nie można wygenerować podkładki dla <PrivateImplementationDetails>: typ nie jest obsługiwany z powodu ograniczeń wewnętrznych.
